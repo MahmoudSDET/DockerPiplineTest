@@ -4,7 +4,7 @@ pipeline {
         stage('Pull latest Code') { 
              steps {
               // Get some code from a GitHub repository
-              git 'https://github.com/pandasm/pipelinetest.git'
+              git 'https://github.com/mahoudabdelfattah/DockerPiplineTest.git'
              }
         }
 		stage('spinning up docker images'){
